@@ -1,0 +1,33 @@
+{
+  "name": "findmycook-backend",
+  "version": "1.0.0",
+  "description": "FindMyCook backend as a service",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsJS/findMyCook-backend.git%22.git"
+  },
+  "author": "Joseph Saroufim, Xiaolin Ma, Qingyu Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsJS/findMyCook-backend.git%22/issues"
+  },
+  "homepage": "https://github.com/itsJS/findMyCook-backend.git%22#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "devstart": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "helmet": "3.11.0",
+    "jsonwebtoken": "8.1.1",
+    "mongoose": "^5.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.12"
+  }
+}
